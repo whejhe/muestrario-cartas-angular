@@ -1,0 +1,19 @@
+.container{
+    background-color: #7f827e;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-image{
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+}

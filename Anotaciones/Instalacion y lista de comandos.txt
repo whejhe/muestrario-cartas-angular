@@ -1,0 +1,41 @@
+Instalar:
+-Node.js
+-Npm
+	version: npm --version
+-Angular CLI
+	npm install -g @angular/cli
+	ng new Proyecto-Angular
+-Git
+
+
+Para lanzar la aplicacion:
+ng serve --open
+o  
+ng serve -o
+	
+Detener servidor: ctrl + c
+
+Generar componentes:
+ng generate component nombreComponente
+o
+ng g c nombreComponente
+
+Generar componente con estilos en linea:
+ng g c nombreComponente -s -t
+
+Instalar bootstrap:
+npm install boostrap --save
+	angular.json:
+			"styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
+
+------------------------------------------------------------------------
+ts.config (Para cambiar de modo estricto a normal):
+
+"compilerOptions": {
+    "strictPropertyInitialization": false,
+}
+--------------------------------------------------------------------------

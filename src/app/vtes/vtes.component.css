@@ -1,0 +1,19 @@
+.container{
+    background-color: #7f827e;
+    margin: 0;
+    padding: 0;
+}
+
+.vtes-grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vtes-image{
+    width: 215px;
+    height: 300px;
+    margin: 5px;
+}

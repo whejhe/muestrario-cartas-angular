@@ -1,0 +1,92 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container{
+    background-color: black;
+    border: 8px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hombre{
+    background-image: url(../../assets/imagen/Camiseta.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: rgb(255, 255, 255); */
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sudadera{
+    background-image: url(../../assets/imagen/sudadera.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: rgb(255, 255, 255); */
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mujer{
+    background-image: url(../../assets/imagen/Camiseta.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: rgb(255, 255, 255); */
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imagenImpresaHombre{
+    /* background-color: blue; */
+    background-image: url(../../assets/imagen/mancha.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 240px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagenImpresaSudadera{
+    /* background-color: blue; */
+    background-image: url(../../assets/imagen/prueba.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 140px;
+    height: 240px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagenImpresaMujer{
+    /* background-color: blue; */
+    background-image: url(../../assets/imagen/mancha.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 240px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

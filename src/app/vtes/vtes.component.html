@@ -1,0 +1,7 @@
+<div class="container" *ngIf="getRoute() === '/vtes'">
+    <div class="vtes-grid" [ngClass]="'vtes-grid'">
+        <div *ngFor="let imagene of image">
+            <img [src]="imagene" alt="Imagen de trabajo" [ngClass]="'vtes-image'">
+        </div>
+    </div>    
+</div>

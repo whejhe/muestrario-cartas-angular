@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    background-color: black;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: white;
+    border: 5px solid rgb(158, 127, 127);
+    border-radius: 5px;
+}
+
+.button:hover{
+    width: 60px;
+    height: 60px;
+    transition: 0.2s;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#black{
+    background-color: black;
+}
+
+#white{
+    background-color: white;
+}

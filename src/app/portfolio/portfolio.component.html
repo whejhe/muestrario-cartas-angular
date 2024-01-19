@@ -1,0 +1,7 @@
+<div class="container" *ngIf="getRoute() === '/Portada'">
+    <div class="portfolio-grid" [ngClass]="'portfolio-grid'">
+        <div *ngFor="let imagene of image">
+            <img [src]="imagene" alt="Imagen de trabajo" [ngClass]="'portfolio-image'">
+        </div>
+    </div>    
+</div>
